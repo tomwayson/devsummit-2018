@@ -3,15 +3,17 @@
 <h1 style="text-align: left; font-size: 2em;">Building Ambitious Applications Integrated with ArcGIS Online/Portal</h1>
 <h2 style="text-align: left; font-size: 1.5em">Ember Addons</h2>
     <p style="text-align: left; font-size: 1em;"><a href="https://github.com/tomwayson/">@tomwayson</a></p>
+    <p style="text-align: left; font-size: 1em;">
+      <a href="https://tomwayson.github.io/devsummit-2018/ambitious-arcgis-apps-3-addons.html" target="_blank">http://esriurl.com/ambAgsSlds3</a>
+    </p>
 
 ---
 
 <!-- .slide: data-background="img/bg-9.png" -->
 
-  <!-- TODO: upate links -->
   <h3>Follow Along</h3>
   <p>
-    <a href="http://tomwayson.github.io/dev-summit-2017-ambitious-arcgis-workshop" target="_blank">goo.gl/OYgA4q</a>
+    <a href="https://tomwayson.github.io/devsummit-2018/ambitious-arcgis-apps-3-addons.html" target="_blank">http://esriurl.com/ambAgsSlds3</a>
   </p>
   <p>
     <a href="https://github.com/tomwayson/devsummit-2018/ambitious-arcgis-apps-3-addons.html" target="_blank">@tomwayson/devsummit-2018</a>
