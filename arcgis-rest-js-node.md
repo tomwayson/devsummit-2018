@@ -2,7 +2,26 @@
 
 ## Node
 
-TODO
+- can be used in node servers (express, hapi, etc)
+- and command-line tools
+
+```js
+// need FETCH and FORM DATA
+require('isomorphic-fetch');
+require('isomorphic-form-data');
+// bring in modules you need...
+const { searchItems } = require("@esri/arcgis-rest-items");
+return searchItems({
+    searchForm: {
+      q: 'bike trails',
+      start: 1,
+      num: 100
+    }
+  })
+  .then((results) => {
+    // work with the items...
+  })
+```
 
 ---
 
@@ -10,4 +29,10 @@ TODO
 
 ## Demo
 
-TODO
+- Bulk Geocoder
+  - configure input, output, field mappings
+  - good if you have a repeated process
+as
+- command-line toolkit
+  - build with `commander`
+  - easy to add more cli tools
