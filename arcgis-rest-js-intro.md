@@ -77,6 +77,3 @@ Disclaimer*
   compact
   but also *far* from complete
 </aside>
-
----
-
