@@ -1,6 +1,30 @@
 <!-- .slide: data-background="img/bg-6.png" -->
 
-## How we're using this
+### How are we using arcgis-rest-js?
+
+* ArcGIS Hub
+* developers.arcgis.com
+* Esri Leaflet
+* Cedar
+
+---
+
+<!-- .slide: data-background="../../../template/img/ds2018/bg-6.png" -->
+
+idea, question, issue, or success story?
+
+@geogangster / [john@esri.com](mailto:john@esri.com)
+
+---
+
+<!-- .slide: data-background="../../../template/img/ds2018/bg-5.png" -->
+
+please, _please_, **please** fill out a session survey
+
+1. download the Esri Events App
+2. select Dev Summit
+3. search for "libraries"
+4. leave feedback!
 
 ---
 
