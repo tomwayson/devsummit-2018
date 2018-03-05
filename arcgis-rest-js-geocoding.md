@@ -1,4 +1,4 @@
-<!-- .slide: data-background="img/bg-4.png" -->
+<!-- .slide: data-background="img/bg-7.png" -->
 
 ## Geocoding
 
@@ -14,6 +14,8 @@ geocode("LAX")
 ```
 
 ---
+
+<!-- .slide: data-background="img/bg-7.png" -->
 
 ## Reverse Geocoding
 
@@ -34,6 +36,8 @@ reverseGeocode({ x: -13181226, y: 4021085, spatialReference: { wkid: 3857 })
 
 ---
 
+<!-- .slide: data-background="img/bg-8.png" -->
+
 ## Suggestions
 
 ```js
@@ -52,6 +56,8 @@ arcgisRest.suggest("Starb")
 
 ---
 
+<!-- .slide: data-background="img/bg-9.png" -->
+
 ## Suggestions
 
 ```js
@@ -69,9 +75,14 @@ arcgisRest.suggest("Disneyl", {
 
 ---
 
+<!-- .slide: data-background="img/bg-2.png" -->
+
 ## Prior art
 
 https://www.npmjs.com/package/geocoder-arcgis
 
+---
+
+<!-- .slide: data-background="img/bg-3.png" -->
 
 ## Demo
