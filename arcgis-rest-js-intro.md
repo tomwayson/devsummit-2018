@@ -25,7 +25,8 @@
 
 <!-- .slide: data-background="img/bg-3.png" -->
 
-https://github.com/Esri/arcgis-rest-js
+* https://github.com/Esri/arcgis-rest-js
+* https://esri.github.io/arcgis-rest-js
 
 <aside class="notes">
   * collaboration between ArcGIS Hub and developers.arcgis.com teams
@@ -53,6 +54,14 @@ Disclaimer*
 <!-- .slide: data-background="img/bg-4.png" -->
 
 ### If at first you don't succeed...
+
+---
+
+<!-- .slide: data-background="img/bg-4.png" -->
+
+* github.com/Esri/geoservices-js
+* github.com/Esri/node-arcgis
+* `XMLHttpRequest` in _lots_ of apps
 
 <aside class="notes">
   * we've been down this road before
