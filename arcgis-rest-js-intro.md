@@ -64,7 +64,7 @@ Disclaimer*
 
 ---
 
-<!-- .slide: data-background="img/bg-5.png" -->
+<!-- .slide: data-background="img/bg-6.png" -->
 
 * `request` - 2kb
 * `feature-service` - 500 bytes
@@ -77,6 +77,3 @@ Disclaimer*
   compact
   but also *far* from complete
 </aside>
-
----
-
