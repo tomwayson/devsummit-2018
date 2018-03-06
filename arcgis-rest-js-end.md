@@ -1,11 +1,18 @@
 <!-- .slide: data-background="img/bg-6.png" -->
 
-### How are we using arcgis-rest-js?
+## How are we using arcgis-rest-js @ Esri?
 
-* ArcGIS Hub
-* developers.arcgis.com
-* Esri Leaflet
-* Cedar
+<ul>
+  <li class="fragment">ArcGIS Hub
+    <ul>
+      <li class="fragment">✔ Cedar</li>
+      <li class="fragment">Hub JS API</li>
+      <li class="fragment">harvester?</li>
+    </ul>
+  </li>
+  <li class="fragment">Esri Leaflet</li>
+  <li class="fragment">developers.arcgis.com</li>
+</ul>
 
 ---
 
