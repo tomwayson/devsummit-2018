@@ -9,7 +9,7 @@
 
 ---
 
-<!-- .slide: data-background="../../../template/img/ds2018/bg-6.png" -->
+<!-- .slide: data-background="img/bg-6.png" -->
 
 idea, question, issue, or success story?
 
@@ -17,7 +17,7 @@ idea, question, issue, or success story?
 
 ---
 
-<!-- .slide: data-background="../../../template/img/ds2018/bg-5.png" -->
+<!-- .slide: data-background="img/bg-6.png" -->
 
 please, _please_, **please** fill out a session survey
 
