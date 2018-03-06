@@ -2,7 +2,7 @@
 
 ### Item Search
 
-### searchItems( string or options )
+- `searchItems( string or options )`
 
 ```js
 const { searchItems } = require("@esri/arcgis-rest-items");
@@ -80,6 +80,47 @@ return searchItems({
 
 ---
 
+<!-- .slide: data-background="img/bg-7.png" -->
+
+### Create Item + JSON Data
+- Web Maps, Web Apps etc
+
+```js
+let itm = {
+  title: 'foo',
+  owner: 'dbouwman',
+  ...
+  data: {
+    ...createItem() handles this correctly...
+  }
+}
+```
+
+---
+
+
+<!-- .slide: data-background="img/bg-7.png" -->
+
+```js
+function serializeItem(item: IItem): any {
+  const clone = JSON.parse(JSON.stringify(item));
+  // join keywords and tags...
+  clone.typeKeywords = item.typeKeywords.join(", ");
+  clone.tags = item.tags.join(", ");
+  // stringify json props...
+  if (clone.data) {
+    clone.text = JSON.stringify(clone.data);
+    delete clone.data;
+  }
+  if (clone.properties) {
+    clone.properties = JSON.stringify(clone.properties);
+  }
+  return clone;
+}
+
+```
+
+---
 
 <!-- .slide: data-background="img/bg-7.png" -->
 
@@ -87,7 +128,6 @@ return searchItems({
 - `addItemJson`
 - `createItemInFolder`
 - `getItemData`
-- `getItemResources`
 
 ---
 
