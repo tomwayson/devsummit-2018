@@ -2,9 +2,11 @@
 
 ## Geocoding
 
+```
+npm install @esri/arcgis-rest-request && npm install @esri/arcgis-rest-geocoder
+```
 ```js
-
-import { geocode } from '@esri/arcgis-geocoder';
+import { geocode } from '@esri/arcgis-rest-geocoder';
 
 geocode("LAX")
   .then((response) => {
@@ -13,6 +15,12 @@ geocode("LAX")
   });
 ```
 
+<aside class="notes">
+  * Promise based
+  * prioritizes simple use cases
+  * try to avoid unnecessary GIS jargon
+</aside>
+
 ---
 
 <!-- .slide: data-background="img/bg-7.png" -->
@@ -20,7 +28,7 @@ geocode("LAX")
 ## Reverse Geocoding
 
 ```js
-import { reverseGeocode } from '@esri/arcgis-geocoder';
+import { reverseGeocode } from '@esri/arcgis-rest-geocoder';
 
 // long, lat
 reverseGeocode([ -118.409,33.943 ])
@@ -34,6 +42,10 @@ reverseGeocode({ x: -118.409, y: 33.9425 }) // wgs84 is assumed
 reverseGeocode({ x: -13181226, y: 4021085, spatialReference: { wkid: 3857 })
 ```
 
+<aside class="notes">
+  * overloaded constructor
+</aside>
+
 ---
 
 <!-- .slide: data-background="img/bg-8.png" -->
@@ -45,7 +57,7 @@ reverseGeocode({ x: -13181226, y: 4021085, spatialReference: { wkid: 3857 })
 <script src="https://cdn.polyfill.io/v2/polyfill.js?features=es5,Promise,fetch"></script>
 
 <script src="https://unpkg.com/@esri/arcgis-rest-request@1.1.1"></script>
-<script src="https://unpkg.com/@esri/arcgis-rest-request@1.1.1"></script>
+<script src="https://unpkg.com/@esri/arcgis-rest-geocoder@1.1.1"></script>
 
 arcgisRest.suggest("Starb")
   .then((response) => {
@@ -53,6 +65,11 @@ arcgisRest.suggest("Starb")
   });
 
 ```
+
+<aside class="notes">
+  * arcgisRest namespace
+  * method names reflect that
+</aside>
 
 ---
 
@@ -73,6 +90,11 @@ arcgisRest.suggest("Disneyl", {
   });
 ```
 
+<aside class="notes">
+  * second optional parameter
+  * other methods that need two pieces of information expect it via a single object
+</aside>
+
 ---
 
 <!-- .slide: data-background="img/bg-2.png" -->
@@ -85,4 +107,4 @@ https://www.npmjs.com/package/geocoder-arcgis
 
 <!-- .slide: data-background="img/bg-3.png" -->
 
-## Demo
+## Demo ([Batch geocoding](https://github.com/Esri/arcgis-rest-js/blob/509afd71425daa7401c8c0cf6a5eb5b1958985b6/demos/batch-geocoder-node/batch-geocode.js#L79-L82) in Node.js)
