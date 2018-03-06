@@ -14,12 +14,9 @@
 
 <!-- .slide: data-background="img/bg-5.png" -->
 
-### Use Case: [Hub Open Dataset Attribute Charts ](http://hub.arcgis.com/datasets/dfdaef8ca5ff4a0fb014abecb7d6615e_8)
+### Node process to query stats and
 
-Field stats cached ahead of time by a node process
-
-<div style="width: 870px; display: flex; justify-content: space-between; margin: 0 auto;">
-<pre style="width: 425px; margin: 0; box-shadow: none;"><code class="hljs json" style="height: 412px;">"statistics": {
+<pre style="width: 425px; margin: 0 auto; box-shadow: none;"><code class="hljs json" style="height: 412px;">"statistics": {
   "values": [
     {
       "value": "Yes",
@@ -34,11 +31,24 @@ Field stats cached ahead of time by a node process
   ],
   "count": 2
 }</code></pre>
-<img src="img/hub-dataset-attribute-chart.png" style="width: 425px; height: 412px; margin: 0">
-</div>
 
-Note:
+---
+
+<!-- .slide: data-background="img/bg-5.png" -->
+
+### a.k.a "Stashed cats"
+
+<img src="img/stashed-cat.jpeg" class="transparent">
+
+---
+
+<!-- .slide: data-background="img/bg-5.png" -->
+
+### External libraries
+
 [cedar](http://cedar-v1.surge.sh/) charts not always used in the context of a map
+
+<img src="img/hub-dataset-attribute-chart.png" style="width: 425px; height: 412px; margin: 0">
 
 ---
 
@@ -91,6 +101,14 @@ queryFeatures({ url: featureLayerUrl, params: queryParams })
     response.count; // 7
   });
 ```
+
+---
+
+<!-- .slide: data-background="img/bg-9.png" -->
+
+## Demo
+
+[@tomwayson/hub-events](https://github.com/tomwayson/hub-events)
 
 ---
 
