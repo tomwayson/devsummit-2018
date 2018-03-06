@@ -8,7 +8,7 @@
   <a href="https://github.com/dbouwman" target="_blank">@dbouwman</a></p>
   <p style="text-align: left; font-size: .5em;">Tom Wayson
   <a href="https://github.com/tomwayson/" target="_blank">@tomwayson</a></p>
-
+  <p style="font-size: 1em;">slides: <a href="http://bit.ly/2FlTihi">http://bit.ly/2FlTihi</a>
 
 ---
 
@@ -26,6 +26,17 @@
 <!-- .slide: data-background="img/bg-3.png" -->
 
 https://github.com/Esri/arcgis-rest-js
+
+<aside class="notes">
+  * collaboration between ArcGIS Hub and developers.arcgis.com teams
+  * shoutout to Patrick Arlt and Noah Mulfinger
+  * shoutout to Ian WA Fish and Game, and Jeff from WA DOT 
+</aside>
+
+---
+
+<!-- .slide: data-background="img/bg-3.png" -->
+
 ```
 npm install @esri/arcgis-rest-request
 ```
@@ -46,6 +57,7 @@ Disclaimer*
 <aside class="notes">
   * we've been down this road before
   * geoservices, node-arcgis, etc.
+  * one off implementations of XMLHttpRequest in apps
 </aside>
 
 ---
@@ -60,7 +72,21 @@ Disclaimer*
 * shave down the sharp edges
 
 <aside class="notes">
+  
+</aside>
 
+---
+
+<!-- .slide: data-background="img/bg-5.png" -->
+
+### Comparison
+
+* _kind of_ analogous to ArcGIS API for Python
+* much different than the ArcGIS API for JavaScript
+
+<aside class="notes">
+  thin wrapper, web centric
+  pairs well with other open source libraries
 </aside>
 
 ---
@@ -76,5 +102,5 @@ Disclaimer*
 
 <aside class="notes">
   compact
-  but also *far* from complete
+  compact because they are *far* from complete
 </aside>
