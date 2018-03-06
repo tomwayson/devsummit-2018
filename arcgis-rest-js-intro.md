@@ -2,12 +2,13 @@
 
 <h1 style="text-align: left; font-size: 2em;">Using ArcGIS REST JS</h1>
 <h2 style="text-align: left; font-size: 1.5em;">and the ArcGIS REST APIs</h2>
-  <p style="text-align: left; font-size: 1em;">John Gravois
+  <p style="text-align: left; font-size: .5em;">John Gravois
   <a href="https://github.com/jgravois" target="_blank">@jgravois</a></p>
-  <p style="text-align: left; font-size: 1em;">Dave Bouwman
+  <p style="text-align: left; font-size: .5em;">Dave Bouwman
   <a href="https://github.com/dbouwman" target="_blank">@dbouwman</a></p>
-  <p style="text-align: left; font-size: 1em;">Tom Wayson
+  <p style="text-align: left; font-size: .5em;">Tom Wayson
   <a href="https://github.com/tomwayson/" target="_blank">@tomwayson</a></p>
+
 
 ---
 
@@ -24,13 +25,13 @@
 
 <!-- .slide: data-background="img/bg-3.png" -->
 
+https://github.com/Esri/arcgis-rest-js
 ```
 npm install @esri/arcgis-rest-request
 ```
 Disclaimer*
 
 <aside class="notes">
-  https://tomwayson.github.io/devsummit-2018/arcgis-rest-js.html
   * not a product, no roadmap
   * work in progress
   * scratching our own itch

@@ -2,9 +2,11 @@
 
 ## Geocoding
 
+```
+npm install @esri/arcgis-rest-request && npm install @esri/arcgis-rest-geocoder
+```
 ```js
-
-import { geocode } from '@esri/arcgis-geocoder';
+import { geocode } from '@esri/arcgis-rest-geocoder';
 
 geocode("LAX")
   .then((response) => {
@@ -20,7 +22,7 @@ geocode("LAX")
 ## Reverse Geocoding
 
 ```js
-import { reverseGeocode } from '@esri/arcgis-geocoder';
+import { reverseGeocode } from '@esri/arcgis-rest-geocoder';
 
 // long, lat
 reverseGeocode([ -118.409,33.943 ])
@@ -45,7 +47,7 @@ reverseGeocode({ x: -13181226, y: 4021085, spatialReference: { wkid: 3857 })
 <script src="https://cdn.polyfill.io/v2/polyfill.js?features=es5,Promise,fetch"></script>
 
 <script src="https://unpkg.com/@esri/arcgis-rest-request@1.1.1"></script>
-<script src="https://unpkg.com/@esri/arcgis-rest-request@1.1.1"></script>
+<script src="https://unpkg.com/@esri/arcgis-rest-geocoder@1.1.1"></script>
 
 arcgisRest.suggest("Starb")
   .then((response) => {
