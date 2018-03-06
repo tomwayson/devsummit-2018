@@ -61,7 +61,7 @@ reverseGeocode({ x: -13181226, y: 4021085, spatialReference: { wkid: 3857 })
 
 arcgisRest.suggest("Starb")
   .then((response) => {
-    response.address.PlaceName; // => "Starbucks"
+    response.suggestions[0].text; // => "Starbucks"
   });
 
 ```
@@ -107,4 +107,4 @@ https://www.npmjs.com/package/geocoder-arcgis
 
 <!-- .slide: data-background="img/bg-3.png" -->
 
-## Demo ([Batch geocoding](https://github.com/Esri/arcgis-rest-js/blob/509afd71425daa7401c8c0cf6a5eb5b1958985b6/demos/batch-geocoder-node/batch-geocode.js#L79-L82) in Node.js)
+Demo ([Batch geocoding](https://github.com/Esri/arcgis-rest-js/blob/509afd71425daa7401c8c0cf6a5eb5b1958985b6/demos/batch-geocoder-node/batch-geocode.js#L79-L82) in Node.js)
