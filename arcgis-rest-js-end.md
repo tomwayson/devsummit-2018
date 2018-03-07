@@ -6,6 +6,7 @@
   <li class="fragment">ArcGIS Hub
     <ul>
       <li class="fragment">✔ Cedar</li>
+      <li class="fragment">items and groups</li>
       <li class="fragment">Hub JS API</li>
       <li class="fragment">harvester?</li>
     </ul>
